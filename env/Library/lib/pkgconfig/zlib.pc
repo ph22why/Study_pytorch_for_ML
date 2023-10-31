@@ -1,0 +1,13 @@
+prefix=C:/Coding/ASAN/Study/pytorch/env/Library
+exec_prefix=C:/Coding/ASAN/Study/pytorch/env/Library
+libdir=C:/Coding/ASAN/Study/pytorch/env/Library/lib
+sharedlibdir=C:/Coding/ASAN/Study/pytorch/env/Library/lib
+includedir=C:/Coding/ASAN/Study/pytorch/env/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
